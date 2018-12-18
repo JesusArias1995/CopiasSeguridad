@@ -15,7 +15,7 @@ Description=Copias de Seguridad
 [Service]
 User=root
 Type=simple
-ExecStart=/bin/bash /root/copias.sh
+ExecStart=/bin/bash /usr/local/sbin/copias.sh
 
 [Install]
 WantedBy=multi-user.target
